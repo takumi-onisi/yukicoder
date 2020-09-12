@@ -1,0 +1,10 @@
+want = gets.to_i #入力値
+amount = 1 #
+index = 0 #指数
+
+while amount < want do
+    index = index + 1 
+    amount =  2 ** index
+end
+
+puts index
